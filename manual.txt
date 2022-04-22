@@ -1,0 +1,26 @@
+in the src folder the main.ts file is the entry point to the NEST.js
+
+in the "src" folder initial file is below
+app.controller.specs.ts => this file  is for unit testing purpose we dont need this file initially so 
+we have deleted this file from the folder
+
+NestFactory is use to cereate the new nest.js application
+
+The most important part in the NEST is the "controller" and "provider"
+
+controller control that how you handle the request,
+that accept the request doing something and return a response
+
+provider are the extra classes which you can inject into controller
+
+In the app.module.ts class the
+@Module is the decorator that should be attached to the AppModule class initially this class should be empty 
+but the @Module are the decorator to this class.
+
+// controller and get decorator are comming from the nestjs and controller() decorator is attached to a class
+// whereas @get() decorator is attached to a method instead of class
+
+manav.18beitg067@gmail.com
+
+To create module controller and service short cut command 
+nest generate module <name of the module>
